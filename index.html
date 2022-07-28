@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="icon" href="images/lemon-svgrepo-com.svg">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Lemon不確定度傳遞計算機</title>
+</head>
+<body>
+    <div class="form-box">
+    <form class="pure-form form-1" action="#">
+        <h1>四則運算的不確定度傳遞計算機</h1>
+        <fieldset>
+            <input id="f1" type="text" placeholder="第一真值" />
+            <input id="e1" type="text" placeholder="第一不確定度" /><br>
+            <input id="f2" type="text" placeholder="第二真值" />
+            <input id="e2" type="text" placeholder="第二不確定度" /><br>
+            <input id="ans1" type="text" placeholder="傳遞後真值" />
+            <input id="ans2" type="text" placeholder="傳遞後不確定度" /><br>
+        </fieldset>
+        <select name="" id="method" >
+            <option value="plus">加法</option>
+            <option value="minus">減法</option>
+            <option value="mult">乘法</option>
+            <option value="div">除法</option>
+        </select>
+        <button id="btn" type="submit" class="pure-button pure-button-primary btn" onclick="">計算</button>
+    </form>
+    <form class="pure-form form-2" action="#">
+        <h1>乘方的不確定度傳遞計算機</h1>
+        <fieldset>
+            <input id="c3" type="text" placeholder="常數" />
+            <input id="p3" type="text" placeholder="次方數" /><br>
+            <input id="f3" type="text" placeholder="第一真值" />
+            <input id="e3" type="text" placeholder="第一不確定度" /><br>
+            
+            <input id="ans3" type="text" placeholder="傳遞後真值" />
+            <input id="ans4" type="text" placeholder="傳遞後不確定度" /><br>
+        </fieldset>
+        <button id="btn2" type="submit" class="pure-button pure-button-primary btn" onclick="">計算</button>
+    </form>
+</div>
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body{
+    background-image: url(../images/pexels-photo-695207.jpeg);
+    background-size: contain;
+}
+.form-box{
+    width:500px;
+    margin: 0 auto;
+    margin-top:15%;
+    margin-bottom: 15%;
+}
+.form-box h1{
+    text-align: center;
+    background: rgba(255,255,255,0.45);
+    line-height: 2;
+    border-radius:15px 15px 0px 0px ;
+}
+input{
+    margin:5px;
+}
+select{
+    margin:5px;
+}
+.form-1{
+    border-radius: 15px;
+    margin-bottom:10px;
+    color: white;
+    background: rgba(255,255,255,0.25);
+    padding-bottom:10px;
+}
+.form-1 fieldset{
+    margin-left: 45px;
+    width:90%;
+}
+.form-1 select{
+    margin-left: 50px;
+}
+.form-2{
+    border-radius: 15px;
+    color: white;
+    background: rgba(255,255,255,0.25);
+    padding-bottom:10px;
+
+}
+.form-2 fieldset{
+    margin-left: 45px;
+    width:90%;
+}
+.form-2 button{
+    width:400px;
+    margin-left: 50px;
+}
+.btn{
+    background-color: rgba(204, 104, 58, 0.65);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
