@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="form-box">
-    <form class="pure-form form-1" action="#">
+        <div class="pure-form pure-form-primary form-1">
         <h1>四則運算的不確定度傳遞計算機</h1>
         <fieldset>
             <input id="f1" type="text" placeholder="第一真值" />
@@ -29,9 +29,9 @@
             <option value="mult">乘法</option>
             <option value="div">除法</option>
         </select>
-        <button id="btn" type="submit" class="pure-button pure-button-primary btn" onclick="">計算</button>
-    </form>
-    <form class="pure-form form-2" action="#">
+        <button id="btn" class="pure-button pure-button-primary btn" onclick="cal();">計算</button>
+    </div>
+    <div class="pure-form pure-form-primary form-2">
         <h1>乘方的不確定度傳遞計算機</h1>
         <fieldset>
             <input id="c3" type="text" placeholder="常數" />
@@ -42,8 +42,8 @@
             <input id="ans3" type="text" placeholder="傳遞後真值" />
             <input id="ans4" type="text" placeholder="傳遞後不確定度" /><br>
         </fieldset>
-        <button id="btn2" type="submit" class="pure-button pure-button-primary btn" onclick="">計算</button>
-    </form>
+        <button id="btn2" class="pure-button pure-button-primary btn" onclick="cal2();">計算</button>
+    </div>
 </div>
     <script src="js/index.js"></script>
 </body>

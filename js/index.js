@@ -30,7 +30,7 @@ const ans1 =document.getElementById("ans1");
 const ans2 =document.getElementById("ans2");
 const ans3 =document.getElementById("ans3");
 const ans4 =document.getElementById("ans4");
-btn.addEventListener("click",function(e){
+function cal(){
     let method=document.getElementById("method").value;
     let a=parseFloat(document.getElementById("f1").value);
     let b=parseFloat(document.getElementById("e1").value);
@@ -58,8 +58,8 @@ btn.addEventListener("click",function(e){
         let h=(d/c)*(d/c);
         ans2.value= ans1.value*(Math.sqrt(g+h));
     }
-});
-btn2.addEventListener("click",function(e){
+};
+function cal2(){
     let a=parseFloat(document.getElementById("f3").value);
     let b=parseFloat(document.getElementById("e3").value);
     let c=parseFloat(document.getElementById("p3").value);
@@ -68,4 +68,4 @@ btn2.addEventListener("click",function(e){
     let B=A*(c*(b/a));
     ans3.value=A;
     ans4.value=B;
-});
+};
